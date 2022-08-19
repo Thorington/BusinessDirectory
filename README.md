@@ -18,14 +18,15 @@
 
 ## Description & Schema
 
+This API lists local businesses in Portland, Oregon. The directory can be curated by BusinessType (i.e. Restaurant, Food Cart, Bar, Art Gallery).
 
 
 <!-- ![a picture of the program's schema](Menu/wwwroot/img/schema.jpg) -->
 
 ## Setup & Installation Requirements
 
-<!-- * Clone repository to desktop
-* Create an _appsettings.json_ file in the __Menu__ directory and copy in the following:
+* Clone repository to desktop
+* Create an _appsettings.json_ file in the __BusinessDirectory__ directory and copy in the following:
 
 ```
 {
@@ -35,14 +36,12 @@
 }
 ```
 
-* Navigate to the __Menu__ directory in your terminal and enter the following commands, in order:
+* Navigate to the __BusinessDirectory__ directory in your terminal and enter the following commands, in order:
 ```console
 $ dotnet restore
-$ dotnet build
-$ dotnet ef migrations add Initial
 $ dotnet ef database update
 $ dotnet run
-``` -->
+```
 
 ## Known Bugs
 
