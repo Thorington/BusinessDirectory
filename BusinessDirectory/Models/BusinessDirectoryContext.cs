@@ -39,7 +39,7 @@ namespace BusinessDirectory.Models
 
           new Business { BusinessId = 13, BusinessType = "Restaurant", BusinessName = "Eem", BusinessWebsite="http://www.eempdx.com/" },
 
-          new Business { BusinessId = 14, BusinessType = "Food Cart", BusinessName = "Erica's Soul Food", BusinessWebsite="https://repuhttp://www.ericassoulfood.com/blicapdx.square.site/" },
+          new Business { BusinessId = 14, BusinessType = "Food Cart", BusinessName = "Erica's Soul Food", BusinessWebsite="http://www.ericassoulfood.com/blicapdx.square.site/" },
 
           new Business { BusinessId = 15, BusinessType = "Food Cart", BusinessName = "Kee’s Loaded Kitchen", BusinessWebsite="https://www.instagram.com/keesloadedkitchen/" },
 

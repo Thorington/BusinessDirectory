@@ -22,5 +22,6 @@ namespace BusinessDirectory
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+ 
     }
 }
