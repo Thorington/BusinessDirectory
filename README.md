@@ -1,5 +1,4 @@
-# Local Business Lookup
-<!-- ![a picture of the page's header](Menu/wwwroot/img/header.jpg) -->
+# Independent Project #12: Local Business Lookup
 
 #### Contributors: _**Claire Thorington**_
 
@@ -11,17 +10,18 @@
 * C#
 * .NET
 * ASP.NET Core MVC
-* Razor
 * MySQL
 * Entity Framework Core
-* Identity
+* Swagger
 
-## Description & Schema
+## Description
 
-This API lists local businesses in Portland, Oregon. The directory can be curated by BusinessType (i.e. Restaurant, Food Cart, Bar, Art Gallery).
+This API lists local businesses in Portland, Oregon. The directory has one endpoint, Businesses, which can be curated by the following properties:
+* BusinessType (i.e. Restaurant, Food Cart, Bar, Art Gallery)
+* BusinessName
+* BusinessWebsite
 
-
-<!-- ![a picture of the program's schema](Menu/wwwroot/img/schema.jpg) -->
+Swagger documentation has been successfully implemented (I think!)
 
 ## Setup & Installation Requirements
 
@@ -42,6 +42,7 @@ $ dotnet restore
 $ dotnet ef database update
 $ dotnet run
 ```
+* To view Swagger documentation, visit <https://localhost:[yourlocalhost]/swagger/v1/swagger.json>
 
 ## Known Bugs
 
