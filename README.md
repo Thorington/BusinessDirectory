@@ -4,9 +4,6 @@
 
 ## Technologies Used
 
-* Markdown
-* HTML
-* CSS
 * C#
 * .NET
 * ASP.NET Core MVC
